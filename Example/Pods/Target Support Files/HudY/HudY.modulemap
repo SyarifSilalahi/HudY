@@ -1,0 +1,6 @@
+framework module HudY {
+  umbrella header "HudY-umbrella.h"
+
+  export *
+  module * { export * }
+}

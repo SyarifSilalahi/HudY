@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1704C4E604FE197A9144C7106D39F5F4 /* HudY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9116D9D59BBEA6734E2B1CF1F139A /* HudY-dummy.m */; };
+		363EAA870C4485B1974E0BC659609F2C /* HudY-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8751A6BC561920885A433669204CBC3 /* HudY-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487E8EF45B19501B3DF83C6C5771E577 /* Pods-HudY_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE980D70DF929E8DF5BF0B6FC5DD0B /* Pods-HudY_Example-dummy.m */; };
+		6401D51EDA0587649125CA2FAC4DC8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6DF494BF27F6A62CFE31CBE47DF80207 /* Pods-HudY_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D961A9A58E4F1ACE5D1775D7429FDF /* Pods-HudY_Tests-dummy.m */; };
+		6F74E40D03DBF9FC6DE4D14FDCFCB210 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB85DC457838C37BF81CBB0A3BC87744 /* ReplaceMe.swift */; };
+		C340E3EDF141F0FB79737E69771388B1 /* Pods-HudY_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B15B9819DE3A10FA20C1359D7931DF /* Pods-HudY_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E480AD03E85781F1C3B68B54FEF46161 /* Pods-HudY_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7F6E2C9498631A8388A578F095A970 /* Pods-HudY_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5081794B0E90F06F65D71648899FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F3FE335CC6B93DB487EF967F1B48EAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		618DFEE623A5966926AAE14FAF00EF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6687901D42ABCA12739851036413A3;
+			remoteInfo = HudY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B21E594BE59ED972BC6B1580E99E1D /* Pods-HudY_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		29E9116D9D59BBEA6734E2B1CF1F139A /* HudY-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HudY-dummy.m"; sourceTree = "<group>"; };
+		3067366919D9F88331E23B8B7CFB6F6C /* Pods-HudY_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HudY_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45B15B9819DE3A10FA20C1359D7931DF /* Pods-HudY_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HudY_Tests-umbrella.h"; sourceTree = "<group>"; };
+		580D6B33DC168F7DFB7A4678CC182BE2 /* Pods_HudY_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HudY_Tests.framework; path = "Pods-HudY_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD8668F3962F3430692497DA861BE6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67CB5842E89295FD6D38629B3206E1F4 /* Pods-HudY_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76D961A9A58E4F1ACE5D1775D7429FDF /* Pods-HudY_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HudY_Tests-dummy.m"; sourceTree = "<group>"; };
+		7DD21B36F967323BFF1611573DB204FB /* Pods-HudY_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		831391A6ED5BF7F766F0D55E88654112 /* HudY.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HudY.modulemap; sourceTree = "<group>"; };
+		84B0977EA8B20850146688D0F9B96E0B /* HudY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HudY.framework; path = HudY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HudY.xcconfig; sourceTree = "<group>"; };
+		8AB8A70533B0DDAE18CE902AFA0B109A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEFC8D93B139E19824D475AAB8124E9 /* Pods-HudY_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A054CE51D793EBCAF961C0E434FA7B77 /* HudY-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudY-prefix.pch"; sourceTree = "<group>"; };
+		A08144AA8AF56ABD0F5D3A1D17BA478A /* Pods-HudY_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HudY_Example.modulemap"; sourceTree = "<group>"; };
+		AA7F6E2C9498631A8388A578F095A970 /* Pods-HudY_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HudY_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB85DC457838C37BF81CBB0A3BC87744 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		ABA08345737EA02C5B43E11BBCAAFB50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE74CFDD650B48DE60E834C71FAD87EC /* Pods_HudY_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HudY_Example.framework; path = "Pods-HudY_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D3E9459A33378A326A79FC544BDE1C /* Pods-HudY_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HudY_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDBE980D70DF929E8DF5BF0B6FC5DD0B /* Pods-HudY_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HudY_Example-dummy.m"; sourceTree = "<group>"; };
+		CCEBA7E659A513D0BBA0C19CC321A7CD /* Pods-HudY_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Tests-resources.sh"; sourceTree = "<group>"; };
+		D785CD60C73505AF16A0BF771319F4F3 /* Pods-HudY_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HudY_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA77347C4C044FEB9FEF85410BB9ABBB /* Pods-HudY_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HudY_Tests.modulemap"; sourceTree = "<group>"; };
+		DDE4B77368BDCD14A3B0E9A670D71D62 /* Pods-HudY_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E30C0BA21A5B588B7AB84CC61E70D255 /* Pods-HudY_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HudY_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8751A6BC561920885A433669204CBC3 /* HudY-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudY-umbrella.h"; sourceTree = "<group>"; };
+		E92E84A7545AB035DE8E0F01417506B5 /* Pods-HudY_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Example-resources.sh"; sourceTree = "<group>"; };
+		F69F3072D4B573CFEE5CAEA2895D3350 /* Pods-HudY_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CA7BC5E04C8627D60F64AFE3242B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6401D51EDA0587649125CA2FAC4DC8D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A701574EE769ED304EF6BFDC0886D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FE335CC6B93DB487EF967F1B48EAC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEF0BCD2D3E3CD99D6DBA848CC3CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5081794B0E90F06F65D71648899FD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D84BA571EE5007A1F4FAA99FD231D1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				831391A6ED5BF7F766F0D55E88654112 /* HudY.modulemap */,
+				894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */,
+				29E9116D9D59BBEA6734E2B1CF1F139A /* HudY-dummy.m */,
+				A054CE51D793EBCAF961C0E434FA7B77 /* HudY-prefix.pch */,
+				E8751A6BC561920885A433669204CBC3 /* HudY-umbrella.h */,
+				8AB8A70533B0DDAE18CE902AFA0B109A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HudY";
+			sourceTree = "<group>";
+		};
+		2A81C15EC11706BA1DE45D81AFBED149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B0977EA8B20850146688D0F9B96E0B /* HudY.framework */,
+				AE74CFDD650B48DE60E834C71FAD87EC /* Pods_HudY_Example.framework */,
+				580D6B33DC168F7DFB7A4678CC182BE2 /* Pods_HudY_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3949B57A542CA1780A2CCF7366632B14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F16E46B2109BC67549CAAC929EBA4 /* HudY */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42372B073902FAEE7E372DFB338EE512 /* Pods-HudY_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8668F3962F3430692497DA861BE6C /* Info.plist */,
+				A08144AA8AF56ABD0F5D3A1D17BA478A /* Pods-HudY_Example.modulemap */,
+				3067366919D9F88331E23B8B7CFB6F6C /* Pods-HudY_Example-acknowledgements.markdown */,
+				D785CD60C73505AF16A0BF771319F4F3 /* Pods-HudY_Example-acknowledgements.plist */,
+				BDBE980D70DF929E8DF5BF0B6FC5DD0B /* Pods-HudY_Example-dummy.m */,
+				F69F3072D4B573CFEE5CAEA2895D3350 /* Pods-HudY_Example-frameworks.sh */,
+				E92E84A7545AB035DE8E0F01417506B5 /* Pods-HudY_Example-resources.sh */,
+				AA7F6E2C9498631A8388A578F095A970 /* Pods-HudY_Example-umbrella.h */,
+				9DEFC8D93B139E19824D475AAB8124E9 /* Pods-HudY_Example.debug.xcconfig */,
+				67CB5842E89295FD6D38629B3206E1F4 /* Pods-HudY_Example.release.xcconfig */,
+			);
+			name = "Pods-HudY_Example";
+			path = "Target Support Files/Pods-HudY_Example";
+			sourceTree = "<group>";
+		};
+		5E9C2BE773B5ED57F97A85EA1B7DF4DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB85DC457838C37BF81CBB0A3BC87744 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71404668DFC273882A6C07609A2DCA29 /* Pods-HudY_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA08345737EA02C5B43E11BBCAAFB50 /* Info.plist */,
+				DA77347C4C044FEB9FEF85410BB9ABBB /* Pods-HudY_Tests.modulemap */,
+				E30C0BA21A5B588B7AB84CC61E70D255 /* Pods-HudY_Tests-acknowledgements.markdown */,
+				B9D3E9459A33378A326A79FC544BDE1C /* Pods-HudY_Tests-acknowledgements.plist */,
+				76D961A9A58E4F1ACE5D1775D7429FDF /* Pods-HudY_Tests-dummy.m */,
+				DDE4B77368BDCD14A3B0E9A670D71D62 /* Pods-HudY_Tests-frameworks.sh */,
+				CCEBA7E659A513D0BBA0C19CC321A7CD /* Pods-HudY_Tests-resources.sh */,
+				45B15B9819DE3A10FA20C1359D7931DF /* Pods-HudY_Tests-umbrella.h */,
+				05B21E594BE59ED972BC6B1580E99E1D /* Pods-HudY_Tests.debug.xcconfig */,
+				7DD21B36F967323BFF1611573DB204FB /* Pods-HudY_Tests.release.xcconfig */,
+			);
+			name = "Pods-HudY_Tests";
+			path = "Target Support Files/Pods-HudY_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3949B57A542CA1780A2CCF7366632B14 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2A81C15EC11706BA1DE45D81AFBED149 /* Products */,
+				8232EEB3CC7F53CC453ABB19409C9CE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8232EEB3CC7F53CC453ABB19409C9CE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42372B073902FAEE7E372DFB338EE512 /* Pods-HudY_Example */,
+				71404668DFC273882A6C07609A2DCA29 /* Pods-HudY_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD5F16E46B2109BC67549CAAC929EBA4 /* HudY */ = {
+			isa = PBXGroup;
+			children = (
+				EE774B7827687B21AE46B5D44E9A41D4 /* HudY */,
+				0D84BA571EE5007A1F4FAA99FD231D1C /* Support Files */,
+			);
+			name = HudY;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EE774B7827687B21AE46B5D44E9A41D4 /* HudY */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C2BE773B5ED57F97A85EA1B7DF4DC /* Classes */,
+			);
+			name = HudY;
+			path = HudY;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CA991F9D1A49A651935D0029C5A5DB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363EAA870C4485B1974E0BC659609F2C /* HudY-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8350176FBF45B16AB13C4524FF44D62A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C340E3EDF141F0FB79737E69771388B1 /* Pods-HudY_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EEB562F6138D58E28DB87DB8D38D65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E480AD03E85781F1C3B68B54FEF46161 /* Pods-HudY_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F12F4D10DE08AE312114ECA86B4279C /* Pods-HudY_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E4DEAC5EFEB2066B5C5E7A418C97D1 /* Build configuration list for PBXNativeTarget "Pods-HudY_Example" */;
+			buildPhases = (
+				AFC8890DEA6FBE601D520A6CAF421C8A /* Sources */,
+				DBEEF0BCD2D3E3CD99D6DBA848CC3CA2 /* Frameworks */,
+				99EEB562F6138D58E28DB87DB8D38D65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2644A7C2D0C829E4779312888444E3EF /* PBXTargetDependency */,
+			);
+			name = "Pods-HudY_Example";
+			productName = "Pods-HudY_Example";
+			productReference = AE74CFDD650B48DE60E834C71FAD87EC /* Pods_HudY_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A396EB600A021FBE29EC23D79DB121DE /* Pods-HudY_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8860B55D88F5188C09B5772DA63F67 /* Build configuration list for PBXNativeTarget "Pods-HudY_Tests" */;
+			buildPhases = (
+				3918ED50E50591A08BE971EB6D22A4A7 /* Sources */,
+				24CA7BC5E04C8627D60F64AFE3242B5D /* Frameworks */,
+				8350176FBF45B16AB13C4524FF44D62A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HudY_Tests";
+			productName = "Pods-HudY_Tests";
+			productReference = 580D6B33DC168F7DFB7A4678CC182BE2 /* Pods_HudY_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE6687901D42ABCA12739851036413A3 /* HudY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4BEE834070A1A73F3E8BA7570A2BAA /* Build configuration list for PBXNativeTarget "HudY" */;
+			buildPhases = (
+				90747FC6D2B1450B23E08303155A6742 /* Sources */,
+				62A701574EE769ED304EF6BFDC0886D4 /* Frameworks */,
+				5CA991F9D1A49A651935D0029C5A5DB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HudY;
+			productName = HudY;
+			productReference = 84B0977EA8B20850146688D0F9B96E0B /* HudY.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2A81C15EC11706BA1DE45D81AFBED149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6687901D42ABCA12739851036413A3 /* HudY */,
+				5F12F4D10DE08AE312114ECA86B4279C /* Pods-HudY_Example */,
+				A396EB600A021FBE29EC23D79DB121DE /* Pods-HudY_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3918ED50E50591A08BE971EB6D22A4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF494BF27F6A62CFE31CBE47DF80207 /* Pods-HudY_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90747FC6D2B1450B23E08303155A6742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1704C4E604FE197A9144C7106D39F5F4 /* HudY-dummy.m in Sources */,
+				6F74E40D03DBF9FC6DE4D14FDCFCB210 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC8890DEA6FBE601D520A6CAF421C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487E8EF45B19501B3DF83C6C5771E577 /* Pods-HudY_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2644A7C2D0C829E4779312888444E3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HudY;
+			target = CE6687901D42ABCA12739851036413A3 /* HudY */;
+			targetProxy = 618DFEE623A5966926AAE14FAF00EF1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0460C40FA94B418D38E094BFA512C4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEFC8D93B139E19824D475AAB8124E9 /* Pods-HudY_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudY_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudY_Example/Pods-HudY_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudY_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D14EB5FA553554492DE5EB1DFAB29A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B21E594BE59ED972BC6B1580E99E1D /* Pods-HudY_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudY_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudY_Tests/Pods-HudY_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudY_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89174891D1D244D5016CAEB877721AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD21B36F967323BFF1611573DB204FB /* Pods-HudY_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudY_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudY_Tests/Pods-HudY_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudY_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBD54CF4971DC6A25C48A64C97573384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CB5842E89295FD6D38629B3206E1F4 /* Pods-HudY_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudY_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudY_Example/Pods-HudY_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudY_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D02CFF3899C92AA30EB5F3E00EA49BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HudY/HudY-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HudY/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HudY/HudY.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HudY;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDD31F7C9ADCDFBF02C66439F0ACAC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HudY/HudY-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HudY/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HudY/HudY.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HudY;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8860B55D88F5188C09B5772DA63F67 /* Build configuration list for PBXNativeTarget "Pods-HudY_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D14EB5FA553554492DE5EB1DFAB29A2 /* Debug */,
+				89174891D1D244D5016CAEB877721AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E4DEAC5EFEB2066B5C5E7A418C97D1 /* Build configuration list for PBXNativeTarget "Pods-HudY_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460C40FA94B418D38E094BFA512C4A4 /* Debug */,
+				CBD54CF4971DC6A25C48A64C97573384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4BEE834070A1A73F3E8BA7570A2BAA /* Build configuration list for PBXNativeTarget "HudY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02CFF3899C92AA30EB5F3E00EA49BB5 /* Debug */,
+				DDD31F7C9ADCDFBF02C66439F0ACAC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

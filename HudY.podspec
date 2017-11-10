@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HudY'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HudY.'
+  s.summary          = 'HudY is a customizable progress HUD with several animation types. you can also set gif or mp4 file to be the animation of the progress HUD.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

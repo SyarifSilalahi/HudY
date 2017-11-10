@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1704C4E604FE197A9144C7106D39F5F4 /* HudY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9116D9D59BBEA6734E2B1CF1F139A /* HudY-dummy.m */; };
-		363EAA870C4485B1974E0BC659609F2C /* HudY-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8751A6BC561920885A433669204CBC3 /* HudY-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1626ABA4CFA62DD47CB983238451E31D /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDE35FF95FC435D0F9A9DEC188199E /* UIImageView+SwiftyGif.swift */; };
+		173F8894997ACF5C4D4EADEA9A85CF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		348E79826F7DF7E66736F44735422219 /* RotatingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D204498AD348E36EEE810FA26F521A5 /* RotatingCircle.swift */; };
+		3575E479B7BCCE7182E859E53E4E2519 /* RPLoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2376331F0868E8B8A57116C066CE0B9 /* RPLoadingAnimationView.swift */; };
+		3898B69D2FE98D140ABE8D032C0A23A1 /* SpininngDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9BA8EBF3D1F89D33A6F382E1A8944 /* SpininngDot.swift */; };
+		3C4F280B3B02396A179BA50E574CC60D /* HudY-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8751A6BC561920885A433669204CBC3 /* HudY-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4179772245B01CE35B2BB755D6564C1D /* FunnyDotsA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF67674602F2C848DEEA051395663 /* FunnyDotsA.swift */; };
 		487E8EF45B19501B3DF83C6C5771E577 /* Pods-HudY_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE980D70DF929E8DF5BF0B6FC5DD0B /* Pods-HudY_Example-dummy.m */; };
+		512B7922302775FDB075C36452B8969F /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E1897175A6FC1589B9766B75705A4B /* UIImage+SwiftyGif.swift */; };
+		625CC4994E26BCE0F07C130122BED249 /* HudY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B054D591794614CA5080D17A0F23A /* HudY.swift */; };
 		6401D51EDA0587649125CA2FAC4DC8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D67B1E792BFD730E61684F9F39A343C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 10327ADFD7E45B782E552A18EE703966 /* Info.plist */; };
 		6DF494BF27F6A62CFE31CBE47DF80207 /* Pods-HudY_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D961A9A58E4F1ACE5D1775D7429FDF /* Pods-HudY_Tests-dummy.m */; };
-		6F74E40D03DBF9FC6DE4D14FDCFCB210 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB85DC457838C37BF81CBB0A3BC87744 /* ReplaceMe.swift */; };
+		8600B00B3FC20F56671BE4DB462AEA48 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = FD49DAE210A4E41241C4EF475BF301DB /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9509EBC01C2335847E1938242BAE3731 /* RPLoadingAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B139DF088E5E97D28B0D8B900E5D2C /* RPLoadingAnimationDelegate.swift */; };
+		BFF73917BB444ECB2C90D3E9852DC71E /* HudY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9116D9D59BBEA6734E2B1CF1F139A /* HudY-dummy.m */; };
 		C340E3EDF141F0FB79737E69771388B1 /* Pods-HudY_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B15B9819DE3A10FA20C1359D7931DF /* Pods-HudY_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D230AE496FC62F15154B749645CAD32E /* DotSpinningLikeSkype.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D5FA008A3950675F5002CB3B57086 /* DotSpinningLikeSkype.swift */; };
 		E480AD03E85781F1C3B68B54FEF46161 /* Pods-HudY_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7F6E2C9498631A8388A578F095A970 /* Pods-HudY_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6F2F14C462B92B7CA88E2E02D8E81D /* LineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF0201EE529E9D04DBBF3E0ECA6434 /* LineScale.swift */; };
+		EA9A20FEB8452EF3B869234373891D30 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB21C39E1F400560B97BD0C59CBD3ED /* SwiftyGifManager.swift */; };
+		EAA6ED4A113A5CB21174059CCC2CEB37 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952CE62ED403CE414E9E800D198BB49 /* TimingFunction.swift */; };
+		EEB23D176AB674BBEA46FC746033E402 /* DotTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D718BCFEF42E8D5CB0D4C1111BF856 /* DotTrianglePath.swift */; };
 		EF5081794B0E90F06F65D71648899FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F3FE335CC6B93DB487EF967F1B48EAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,22 +38,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE6687901D42ABCA12739851036413A3;
+			remoteGlobalIDString = A4839237A238FA3C480203C4350C76E8;
 			remoteInfo = HudY;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05B21E594BE59ED972BC6B1580E99E1D /* Pods-HudY_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C3B054D591794614CA5080D17A0F23A /* HudY.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HudY.swift; sourceTree = "<group>"; };
+		0CBDE35FF95FC435D0F9A9DEC188199E /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		10327ADFD7E45B782E552A18EE703966 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E9116D9D59BBEA6734E2B1CF1F139A /* HudY-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HudY-dummy.m"; sourceTree = "<group>"; };
 		3067366919D9F88331E23B8B7CFB6F6C /* Pods-HudY_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HudY_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EC9BA8EBF3D1F89D33A6F382E1A8944 /* SpininngDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpininngDot.swift; sourceTree = "<group>"; };
 		45B15B9819DE3A10FA20C1359D7931DF /* Pods-HudY_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HudY_Tests-umbrella.h"; sourceTree = "<group>"; };
 		580D6B33DC168F7DFB7A4678CC182BE2 /* Pods_HudY_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HudY_Tests.framework; path = "Pods-HudY_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD8668F3962F3430692497DA861BE6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D204498AD348E36EEE810FA26F521A5 /* RotatingCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RotatingCircle.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67CB5842E89295FD6D38629B3206E1F4 /* Pods-HudY_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Example.release.xcconfig"; sourceTree = "<group>"; };
 		76D961A9A58E4F1ACE5D1775D7429FDF /* Pods-HudY_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HudY_Tests-dummy.m"; sourceTree = "<group>"; };
 		7DD21B36F967323BFF1611573DB204FB /* Pods-HudY_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		81D718BCFEF42E8D5CB0D4C1111BF856 /* DotTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DotTrianglePath.swift; sourceTree = "<group>"; };
 		831391A6ED5BF7F766F0D55E88654112 /* HudY.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HudY.modulemap; sourceTree = "<group>"; };
 		84B0977EA8B20850146688D0F9B96E0B /* HudY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HudY.framework; path = HudY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HudY.xcconfig; sourceTree = "<group>"; };
@@ -48,20 +68,28 @@
 		9DEFC8D93B139E19824D475AAB8124E9 /* Pods-HudY_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudY_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A054CE51D793EBCAF961C0E434FA7B77 /* HudY-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudY-prefix.pch"; sourceTree = "<group>"; };
 		A08144AA8AF56ABD0F5D3A1D17BA478A /* Pods-HudY_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HudY_Example.modulemap"; sourceTree = "<group>"; };
+		A952CE62ED403CE414E9E800D198BB49 /* TimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
 		AA7F6E2C9498631A8388A578F095A970 /* Pods-HudY_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HudY_Example-umbrella.h"; sourceTree = "<group>"; };
-		AB85DC457838C37BF81CBB0A3BC87744 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		ABA08345737EA02C5B43E11BBCAAFB50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB21C39E1F400560B97BD0C59CBD3ED /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
 		AE74CFDD650B48DE60E834C71FAD87EC /* Pods_HudY_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HudY_Example.framework; path = "Pods-HudY_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2376331F0868E8B8A57116C066CE0B9 /* RPLoadingAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPLoadingAnimationView.swift; sourceTree = "<group>"; };
 		B9D3E9459A33378A326A79FC544BDE1C /* Pods-HudY_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HudY_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BDBE980D70DF929E8DF5BF0B6FC5DD0B /* Pods-HudY_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HudY_Example-dummy.m"; sourceTree = "<group>"; };
+		BFCDF67674602F2C848DEEA051395663 /* FunnyDotsA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunnyDotsA.swift; sourceTree = "<group>"; };
+		C3E1897175A6FC1589B9766B75705A4B /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
 		CCEBA7E659A513D0BBA0C19CC321A7CD /* Pods-HudY_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Tests-resources.sh"; sourceTree = "<group>"; };
 		D785CD60C73505AF16A0BF771319F4F3 /* Pods-HudY_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HudY_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA77347C4C044FEB9FEF85410BB9ABBB /* Pods-HudY_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HudY_Tests.modulemap"; sourceTree = "<group>"; };
 		DDE4B77368BDCD14A3B0E9A670D71D62 /* Pods-HudY_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E13D5FA008A3950675F5002CB3B57086 /* DotSpinningLikeSkype.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DotSpinningLikeSkype.swift; sourceTree = "<group>"; };
 		E30C0BA21A5B588B7AB84CC61E70D255 /* Pods-HudY_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HudY_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8751A6BC561920885A433669204CBC3 /* HudY-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudY-umbrella.h"; sourceTree = "<group>"; };
+		E8CF0201EE529E9D04DBBF3E0ECA6434 /* LineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LineScale.swift; sourceTree = "<group>"; };
 		E92E84A7545AB035DE8E0F01417506B5 /* Pods-HudY_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Example-resources.sh"; sourceTree = "<group>"; };
+		F3B139DF088E5E97D28B0D8B900E5D2C /* RPLoadingAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RPLoadingAnimationDelegate.swift; sourceTree = "<group>"; };
 		F69F3072D4B573CFEE5CAEA2895D3350 /* Pods-HudY_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudY_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FD49DAE210A4E41241C4EF475BF301DB /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwiftyGif.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,19 +101,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62A701574EE769ED304EF6BFDC0886D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3FE335CC6B93DB487EF967F1B48EAC7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DBEEF0BCD2D3E3CD99D6DBA848CC3CA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF5081794B0E90F06F65D71648899FD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB8D5702877502BDF6EB1A397DBD6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173F8894997ACF5C4D4EADEA9A85CF43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,15 +170,6 @@
 			path = "Target Support Files/Pods-HudY_Example";
 			sourceTree = "<group>";
 		};
-		5E9C2BE773B5ED57F97A85EA1B7DF4DC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AB85DC457838C37BF81CBB0A3BC87744 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		71404668DFC273882A6C07609A2DCA29 /* Pods-HudY_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +186,18 @@
 			);
 			name = "Pods-HudY_Tests";
 			path = "Target Support Files/Pods-HudY_Tests";
+			sourceTree = "<group>";
+		};
+		7944EC9DF8CB58AE1044C2C3321D2A2A /* LoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F3B139DF088E5E97D28B0D8B900E5D2C /* RPLoadingAnimationDelegate.swift */,
+				B2376331F0868E8B8A57116C066CE0B9 /* RPLoadingAnimationView.swift */,
+				ACA12150989C02A24AFD8628B099C88E /* Animation */,
+				FB4195653AEB164515BC8716DAD25A6A /* TimingFunction */,
+			);
+			name = LoadingAnimation;
+			path = LoadingAnimation;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -189,12 +220,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		89FE60AB1D39002B4950D3BADE2415DA /* External */ = {
+			isa = PBXGroup;
+			children = (
+				7944EC9DF8CB58AE1044C2C3321D2A2A /* LoadingAnimation */,
+				A3FED1FF041CEE56367473D287DB36FD /* SwiftyGif */,
+			);
+			name = External;
+			path = External;
+			sourceTree = "<group>";
+		};
+		A3FED1FF041CEE56367473D287DB36FD /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				10327ADFD7E45B782E552A18EE703966 /* Info.plist */,
+				FD49DAE210A4E41241C4EF475BF301DB /* SwiftyGif.h */,
+				ABB21C39E1F400560B97BD0C59CBD3ED /* SwiftyGifManager.swift */,
+				C3E1897175A6FC1589B9766B75705A4B /* UIImage+SwiftyGif.swift */,
+				0CBDE35FF95FC435D0F9A9DEC188199E /* UIImageView+SwiftyGif.swift */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		ACA12150989C02A24AFD8628B099C88E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E13D5FA008A3950675F5002CB3B57086 /* DotSpinningLikeSkype.swift */,
+				81D718BCFEF42E8D5CB0D4C1111BF856 /* DotTrianglePath.swift */,
+				BFCDF67674602F2C848DEEA051395663 /* FunnyDotsA.swift */,
+				E8CF0201EE529E9D04DBBF3E0ECA6434 /* LineScale.swift */,
+				5D204498AD348E36EEE810FA26F521A5 /* RotatingCircle.swift */,
+				3EC9BA8EBF3D1F89D33A6F382E1A8944 /* SpininngDot.swift */,
+			);
+			name = Animation;
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB48DED98F40C3844964686E6279FD0B /* HudY */ = {
+			isa = PBXGroup;
+			children = (
+				FF65235B1B09E377F7BE898FB3172D59 /* Classes */,
+			);
+			name = HudY;
+			path = HudY;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -208,30 +285,41 @@
 		DD5F16E46B2109BC67549CAAC929EBA4 /* HudY */ = {
 			isa = PBXGroup;
 			children = (
-				EE774B7827687B21AE46B5D44E9A41D4 /* HudY */,
+				CB48DED98F40C3844964686E6279FD0B /* HudY */,
 				0D84BA571EE5007A1F4FAA99FD231D1C /* Support Files */,
 			);
 			name = HudY;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		EE774B7827687B21AE46B5D44E9A41D4 /* HudY */ = {
+		FB4195653AEB164515BC8716DAD25A6A /* TimingFunction */ = {
 			isa = PBXGroup;
 			children = (
-				5E9C2BE773B5ED57F97A85EA1B7DF4DC /* Classes */,
+				A952CE62ED403CE414E9E800D198BB49 /* TimingFunction.swift */,
 			);
-			name = HudY;
-			path = HudY;
+			name = TimingFunction;
+			path = TimingFunction;
+			sourceTree = "<group>";
+		};
+		FF65235B1B09E377F7BE898FB3172D59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B054D591794614CA5080D17A0F23A /* HudY.swift */,
+				89FE60AB1D39002B4950D3BADE2415DA /* External */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5CA991F9D1A49A651935D0029C5A5DB0 /* Headers */ = {
+		4EFC3819EB96C78A544AD1CB2835C0F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363EAA870C4485B1974E0BC659609F2C /* HudY-umbrella.h in Headers */,
+				3C4F280B3B02396A179BA50E574CC60D /* HudY-umbrella.h in Headers */,
+				8600B00B3FC20F56671BE4DB462AEA48 /* SwiftyGif.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,13 +377,13 @@
 			productReference = 580D6B33DC168F7DFB7A4678CC182BE2 /* Pods_HudY_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE6687901D42ABCA12739851036413A3 /* HudY */ = {
+		A4839237A238FA3C480203C4350C76E8 /* HudY */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E4BEE834070A1A73F3E8BA7570A2BAA /* Build configuration list for PBXNativeTarget "HudY" */;
+			buildConfigurationList = 82A45A09FDB0DA194D4C00E907FE02FF /* Build configuration list for PBXNativeTarget "HudY" */;
 			buildPhases = (
-				90747FC6D2B1450B23E08303155A6742 /* Sources */,
-				62A701574EE769ED304EF6BFDC0886D4 /* Frameworks */,
-				5CA991F9D1A49A651935D0029C5A5DB0 /* Headers */,
+				D7DF36F933E7A955A010E9DC579F13C2 /* Sources */,
+				DEB8D5702877502BDF6EB1A397DBD6AA /* Frameworks */,
+				4EFC3819EB96C78A544AD1CB2835C0F2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -327,7 +415,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE6687901D42ABCA12739851036413A3 /* HudY */,
+				A4839237A238FA3C480203C4350C76E8 /* HudY */,
 				5F12F4D10DE08AE312114ECA86B4279C /* Pods-HudY_Example */,
 				A396EB600A021FBE29EC23D79DB121DE /* Pods-HudY_Tests */,
 			);
@@ -343,20 +431,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90747FC6D2B1450B23E08303155A6742 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1704C4E604FE197A9144C7106D39F5F4 /* HudY-dummy.m in Sources */,
-				6F74E40D03DBF9FC6DE4D14FDCFCB210 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AFC8890DEA6FBE601D520A6CAF421C8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				487E8EF45B19501B3DF83C6C5771E577 /* Pods-HudY_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DF36F933E7A955A010E9DC579F13C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D230AE496FC62F15154B749645CAD32E /* DotSpinningLikeSkype.swift in Sources */,
+				EEB23D176AB674BBEA46FC746033E402 /* DotTrianglePath.swift in Sources */,
+				4179772245B01CE35B2BB755D6564C1D /* FunnyDotsA.swift in Sources */,
+				BFF73917BB444ECB2C90D3E9852DC71E /* HudY-dummy.m in Sources */,
+				625CC4994E26BCE0F07C130122BED249 /* HudY.swift in Sources */,
+				6D67B1E792BFD730E61684F9F39A343C /* Info.plist in Sources */,
+				EA6F2F14C462B92B7CA88E2E02D8E81D /* LineScale.swift in Sources */,
+				348E79826F7DF7E66736F44735422219 /* RotatingCircle.swift in Sources */,
+				9509EBC01C2335847E1938242BAE3731 /* RPLoadingAnimationDelegate.swift in Sources */,
+				3575E479B7BCCE7182E859E53E4E2519 /* RPLoadingAnimationView.swift in Sources */,
+				3898B69D2FE98D140ABE8D032C0A23A1 /* SpininngDot.swift in Sources */,
+				EA9A20FEB8452EF3B869234373891D30 /* SwiftyGifManager.swift in Sources */,
+				EAA6ED4A113A5CB21174059CCC2CEB37 /* TimingFunction.swift in Sources */,
+				512B7922302775FDB075C36452B8969F /* UIImage+SwiftyGif.swift in Sources */,
+				1626ABA4CFA62DD47CB983238451E31D /* UIImageView+SwiftyGif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +467,7 @@
 		2644A7C2D0C829E4779312888444E3EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HudY;
-			target = CE6687901D42ABCA12739851036413A3 /* HudY */;
+			target = A4839237A238FA3C480203C4350C76E8 /* HudY */;
 			targetProxy = 618DFEE623A5966926AAE14FAF00EF1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -527,6 +628,41 @@
 			};
 			name = Release;
 		};
+		A84105F5D6F24BEBCD9FF90492716004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HudY/HudY-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HudY/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HudY/HudY.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HudY;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CBD54CF4971DC6A25C48A64C97573384 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67CB5842E89295FD6D38629B3206E1F4 /* Pods-HudY_Example.release.xcconfig */;
@@ -564,41 +700,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D02CFF3899C92AA30EB5F3E00EA49BB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HudY/HudY-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HudY/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HudY/HudY.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HudY;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -648,7 +749,7 @@
 			};
 			name = Debug;
 		};
-		DDD31F7C9ADCDFBF02C66439F0ACAC1B /* Release */ = {
+		E29A411BD56A2FB2CA4F5278868EAFA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 894014C68728BE35DD8EC03FD7DB2099 /* HudY.xcconfig */;
 			buildSettings = {
@@ -667,7 +768,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HudY/HudY-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HudY/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HudY/HudY.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -675,7 +776,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -703,20 +804,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		82A45A09FDB0DA194D4C00E907FE02FF /* Build configuration list for PBXNativeTarget "HudY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84105F5D6F24BEBCD9FF90492716004 /* Debug */,
+				E29A411BD56A2FB2CA4F5278868EAFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		90E4DEAC5EFEB2066B5C5E7A418C97D1 /* Build configuration list for PBXNativeTarget "Pods-HudY_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0460C40FA94B418D38E094BFA512C4A4 /* Debug */,
 				CBD54CF4971DC6A25C48A64C97573384 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E4BEE834070A1A73F3E8BA7570A2BAA /* Build configuration list for PBXNativeTarget "HudY" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D02CFF3899C92AA30EB5F3E00EA49BB5 /* Debug */,
-				DDD31F7C9ADCDFBF02C66439F0ACAC1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SwiftyGif.h"
 
 FOUNDATION_EXPORT double HudYVersionNumber;
 FOUNDATION_EXPORT const unsigned char HudYVersionString[];
